@@ -33,5 +33,3 @@ This project is a browser-based **Snake Game**, where you control a snake that s
 4. **Avoid** hitting the walls or your own tail. If you do, the game is over! ❌
 5. Your score is based on the snake's length. Try to beat your **high score**!
 
-## 📁 Project Structure
-
