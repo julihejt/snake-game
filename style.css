@@ -81,32 +81,6 @@ body,
   position: relative;
 }
 
-.snake-head {
-  background-color: #4a4a4a;
-  border: none;
-}
-
-.snake-head::before,
-.snake-head::after {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background-color: white;
-  border-radius: 50%;
-  top: 5px;
-}
-
-.snake-head::before {
-  left: 5px; /* Left eye */
-}
-
-.snake-head::after {
-  right: 5px; /* Right eye */
-}
-
-/* Existing CSS */
-
 /* Update this part to use the apple image */
 .food {
   background-image: url("./img/redApple.webp");
