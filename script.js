@@ -23,11 +23,20 @@ function draw() {
   updateScore();
 }
 
-// Draw snake
+// Draw snake with a face on the head and rounded body segments
 function drawSnake() {
-  snake.forEach((segment) => {
-    const snakeElement = createGameElement("div", "snake");
+  board.innerHTML = ""; // Clear the board
+  snake.forEach((segment, index) => {
+    const snakeElement = createGameElement(
+      "div",
+      index === 0 ? "snake snake-head" : "snake snake-body"
+    );
     setPosition(snakeElement, segment);
+    if (index === 0) {
+      const tongueElement = document.createElement("div");
+      tongueElement.classList.add("tongue");
+      snakeElement.appendChild(tongueElement);
+    }
     board.appendChild(snakeElement);
   });
 }
@@ -48,6 +57,7 @@ function setPosition(element, position) {
 // Testing draw function
 // draw();
 
+// Draw food function
 // Draw food function
 function drawFood() {
   if (gameStarted) {

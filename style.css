@@ -76,12 +76,46 @@ body,
 }
 
 .snake {
-  border: #5a5a5a 1px dotted;
+  background-color: #5a5a5a;
+  border: 1px dotted #5a5a5a;
+  position: relative;
 }
 
+.snake-head {
+  background-color: #4a4a4a;
+  border: none;
+}
+
+.snake-head::before,
+.snake-head::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 50%;
+  top: 5px;
+}
+
+.snake-head::before {
+  left: 5px; /* Left eye */
+}
+
+.snake-head::after {
+  right: 5px; /* Right eye */
+}
+
+/* Existing CSS */
+
+/* Update this part to use the apple image */
 .food {
-  background-color: #d4d2d2;
-  border: #999 5px solid;
+  background-image: url("./img/redApple.webp");
+  background-size: cover; /* Ensure the image covers the div */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center; /* Center the image within the div */
+  border: none; /* Remove border if any */
+  width: 100%; /* Make sure it scales with the grid cell */
+  height: 100%; /* Make sure it scales with the grid cell */
 }
 
 #logo {
