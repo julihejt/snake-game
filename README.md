@@ -7,7 +7,6 @@ Welcome to the **Snake Game**! A fun, classic game built with HTML, CSS, and Jav
 - [🎉 Overview](#-overview)
 - [✨ Features](#-features)
 - [🎮 How to Play](#-how-to-play)
-- [📁 Project Structure](#-project-structure)
 
 ## 🎉 Overview
 
