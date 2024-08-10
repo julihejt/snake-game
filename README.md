@@ -18,7 +18,6 @@ This project is a browser-based Snake game, where the player controls a snake th
 
 ## Features
 
-- **Responsive Design:** The game is playable on different screen sizes.
 - **High Score Tracking:** The game tracks the highest score achieved during the current session.
 - **Difficulty Progression:** The speed of the snake increases as it eats more food, making the game progressively more challenging.
 - **Keyboard Controls:** The game is controlled using the arrow keys on your keyboard.
