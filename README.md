@@ -1,34 +1,35 @@
 # 🐍 Snake Game 🎮
 
-Welcome to the **Snake Game**! A fun, classic game built with HTML, CSS, and JavaScript. Enjoy the nostalgia with a modern twist!
+Welcome to the **Snake Game**! This is a fun, browser-based rendition of the classic arcade game built using HTML, CSS, and JavaScript. Experience the nostalgia of the original game with a modern touch!
 
 ## 📖 Table of Contents
 
 - [🎉 Overview](#-overview)
 - [✨ Features](#-features)
 - [🎮 How to Play](#-how-to-play)
+- [🛠️ Installation](#-installation)
+- [📄 License](#-license)
 
 ## 🎉 Overview
 
-This project is a browser-based **Snake Game**, where you control a snake that slithers around the board, eating food to grow longer. Avoid the walls and your own tail to keep the game going! How long can you last? 🕹️
+The Snake Game challenges you to control a snake on a game board, eating food to grow longer while avoiding walls and the snake's own tail. See how long you can survive and achieve the highest score!
 
 ## ✨ Features
 
-- 🖥️ **Design**: Playable on laptop/mac for now
-- 🏆 **High Score Tracking**: See if you can beat your best score!
-- ⏩ **Increasing Difficulty**: The snake speeds up as it grows longer.
-- 🎮 **Keyboard Controls**: Easy arrow key controls for smooth gameplay.
-- 🕹️ **Retro Style**: Pixelated graphics with a minimalist, nostalgic design.
+- 🖥️ **Responsive Design**: Playable on both desktop and mobile devices.
+- 🏆 **High Score Tracking**: Keep track of your best scores and strive to beat them!
+- ⏩ **Increasing Difficulty**: The snake speeds up as it grows, adding to the challenge.
+- 🎮 **Keyboard Controls**: Navigate using the arrow keys for smooth gameplay.
+- 🎨 **Custom Graphics**: Enjoy retro-inspired, pixelated visuals with custom-designed elements for the snake and food.
 
 ## 🎮 How to Play
 
 1. **Press the space bar** to start the game.
-2. Control the snake using the **arrow keys**:
+2. Use the **arrow keys** to control the snake:
    - ⬆️ **Up Arrow**: Move up
    - ⬇️ **Down Arrow**: Move down
    - ⬅️ **Left Arrow**: Move left
    - ➡️ **Right Arrow**: Move right
 3. Eat the food that appears on the board to grow your snake. 🍎
-4. **Avoid** hitting the walls or your own tail. If you do, the game is over! ❌
-5. Your score is based on the snake's length. Try to beat your **high score**!
-
+4. **Avoid** hitting the walls or your own tail. The game ends if you collide with either! ❌
+5. Your score is based on the length of the snake. Try to beat your **high score**!
