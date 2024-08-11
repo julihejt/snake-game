@@ -33,3 +33,4 @@ The Snake Game challenges you to control a snake on a game board, eating food to
 3. Eat the food that appears on the board to grow your snake. 🍎
 4. **Avoid** hitting the walls or your own tail. The game ends if you collide with either! ❌
 5. Your score is based on the length of the snake. Try to beat your **high score**!
+6. When the game is over, **click the "Play Again" button** to restart the game and try for a higher score. 🔄
